@@ -1,0 +1,43 @@
+{
+  "name": "gov-enterprise-brain",
+  "version": "1.0.0",
+  "description": "A super AI administrative steward integrating government service and enterprise management for policy interpretation, process automation, compliance management, and data-driven decision support.",
+  "author": {
+    "name": "jim1919",
+    "email": ""
+  },
+  "agents": ["./agents/gov-enterprise-brain.md"],
+
+  "expertType": "agent",
+  "agentName": "gov-enterprise-brain",
+
+  "displayName": {
+    "en": "Gov&Enterprise AI Brain",
+    "zh": "政企智脑"
+  },
+  "profession": {
+    "en": "Super AI Administrative Steward",
+    "zh": "超级人工智能行政管家"
+  },
+  "displayDescription": {
+    "en": "A versatile AI administrative steward integrating government services and enterprise management for policy interpretation, process automation, compliance, and data-driven decisions.",
+    "zh": "深度融合政务服务与企业管理逻辑，覆盖政策解读、流程自动化、合规管理及数据决策的全能型智能行政管家。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "帮我解读这份最新的政策文件，提取核心条款、申报条件与适用对象",
+    "en": "Help me interpret this policy document by extracting key clauses, application conditions, and eligible recipients"
+  },
+  "plugin": "gov-enterprise-brain",
+  "tags": [
+    { "en": "Admin Management", "zh": "行政管理" },
+    { "en": "Data Analysis", "zh": "数据处理" },
+    { "en": "Compliance & Decision", "zh": "合规决策" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me interpret this policy document by extracting key clauses, application conditions, and eligible recipients", "zh": "帮我解读这份最新的政策文件，提取核心条款、申报条件与适用对象" },
+    { "en": "Organize standard meeting minutes from this recording and extract decisions and action items", "zh": "根据会议记录整理标准会议纪要，提取决策事项与待办任务清单" },
+    { "en": "Analyze this quarter's production safety data, generate a visualization report with corrective recommendations", "zh": "分析本季度生产安全数据，生成可视化报告并提出整改建议" }
+  ]
+}
