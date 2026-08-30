@@ -1,44 +1,44 @@
 # Gov Enterprise Brain
 
-[TODO: 一句话描述]
+[TODO: One-sentence description]
 
-## 类型
+## Type
 
-Agent 型（单个 AI 专家）
+Agent Type (Single AI Expert)
 
-## 功能
+## Features
 
-[TODO: 详细功能说明]
+[TODO: Detailed Feature Description]
 
-## 使用示例
+## Usage Examples
 
-- [TODO: 示例提示词1]
-- [TODO: 示例提示词2]
-- [TODO: 示例提示词3]
+- [TODO: Example prompt 1]
+- [TODO: Example prompt 2]
+- [TODO: Example prompt 3]
 
-## 头像
+## Avatar
 
-头像已自动生成在 `avatars/` 目录下。如需替换为自定义头像，要求：
-- 格式：PNG（推荐）或 JPG
-- 尺寸：512×512 px
-- 大小：单张不超过 500KB
+The avatar has been automatically generated in the 'avatars/' directory. To replace it with a custom avatar, the following requirements are required: 
+- Format: PNG (recommended) or JPG
+- Size: 512×512 px
+- Size: Each sheet must not exceed 500KB
 
-## 安装
+## Installation
 
-将专家包目录放到专家目录下：
+Add the expert package directory to the expert directory: 
 
 ```
-C:\Users\jim1919\.workbuddy\plugins\marketplaces\my-experts\plugins/gov-enterprise-brain/
+C:Usersjim1919.workbuddypluginsmarketplacesmy-expertsplugins/gov-enterprise-brain/ 
 ```
 
-然后运行注册命令使其可见：
+Then run the registration command to make it visible: 
 
 ```bash
 python3 scripts/register_expert.py <expert-dir>
 ```
 
-## 打包分享
+## Packed and shared
 
 ```bash
-zip -r gov-enterprise-brain.zip gov-enterprise-brain/
+zip -r gov-enterprise-brain.zip gov-enterprise-brain/ 
 ```
